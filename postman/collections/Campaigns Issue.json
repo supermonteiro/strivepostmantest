@@ -1,0 +1,143 @@
+{
+	"info": {
+		"_postman_id": "70fc7166-94cb-42b1-8d8b-26f1295e9862",
+		"name": "Campaigns Issue",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "38070420-70fc7166-94cb-42b1-8d8b-26f1295e9862"
+	},
+	"item": [
+		{
+			"name": "Get all campaigns from PB UAT",
+			"id": "0ca26e67-b8ad-4e1d-9629-b38e4200b1b9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "DC5C57uQetLYkuatw18T"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "User-Agent",
+						"value": "insomnia/10.0.0",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://api-uat-pointsbet.strivegaming.dev/api/v1/pointsbet/tenants/102/players/7368136492/campaigns",
+					"protocol": "https",
+					"host": [
+						"api-uat-pointsbet",
+						"strivegaming",
+						"dev"
+					],
+					"path": [
+						"api",
+						"v1",
+						"pointsbet",
+						"tenants",
+						"102",
+						"players",
+						"7368136492",
+						"campaigns"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all campaigns from PB DEV",
+			"id": "df761734-f789-461b-af55-2a31d3b18ec8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "35b17d98493c496eb538e729c5b79e5a"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "User-Agent",
+						"value": "insomnia/10.0.0",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://api.dev.pointsbet.strivegaming.dev/api/v1/pointsbet/tenants/102/players/4099389608/campaigns",
+					"protocol": "https",
+					"host": [
+						"api",
+						"dev",
+						"pointsbet",
+						"strivegaming",
+						"dev"
+					],
+					"path": [
+						"api",
+						"v1",
+						"pointsbet",
+						"tenants",
+						"102",
+						"players",
+						"4099389608",
+						"campaigns"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all campaigns from PB DEV v2",
+			"id": "01049051-ca68-4a70-9ddd-46a93b5fb3aa",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "35b17d98493c496eb538e729c5b79e5a",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.dev.pointsbet.strivegaming.dev/api/v2/pointsbet/tenants/102/players/4099389608/campaigns",
+					"protocol": "https",
+					"host": [
+						"api",
+						"dev",
+						"pointsbet",
+						"strivegaming",
+						"dev"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pointsbet",
+						"tenants",
+						"102",
+						"players",
+						"4099389608",
+						"campaigns"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
